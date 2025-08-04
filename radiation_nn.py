@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 
 
 # 读取数据
-df = pd.read_csv('/Users/wuduojin/Desktop/grey_rad_data_prep/training_dataset.csv')
+df = pd.read_csv('/Users/wuduojin/Desktop/grey_rad_data_prep/atmospheric_radiation_dataset.csv')
 
 # 分离输入和输出
 X = df[['p', 'T','density']].values
