@@ -1,8 +1,2 @@
-outputs/*
-<<<<<<< HEAD
-*.txt
-*.csv
-=======
-**/*.csv
-**/*.txt
->>>>>>> 7e396bc (revised radiation_nn.py)
+**/outputs
+**/data

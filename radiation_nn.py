@@ -200,7 +200,7 @@ def main():
     parser.add_argument("--epochs", type=int, default=100, help="Number of training epochs")
     parser.add_argument("--batch_size", type=int, default=256, help="Batch size for training")
     parser.add_argument("--lr", type=float, default=1e-3, help="Learning rate for the optimizer")
-    parser.add_argument("--data_path", type=str, default="atmospheric_radiation_dataset.csv", help="Path to the dataset")
+    parser.add_argument("--data_path", type=str, default="data/atmospheric_radiation_dataset.csv", help="Path to the dataset")
     parser.add_argument("--output_path", type=str, default="outputs", help="Path to save the model output")
     parser.add_argument("--device", type=str, default="cuda" if torch.cuda.is_available() else "cpu", help="Device to train the model on")
     parser.add_argument("--vis_num", type=int, default=50, help="Number of samples to visualize")
